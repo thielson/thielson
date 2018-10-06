@@ -8,17 +8,13 @@
     <option name="projectViewFile" value="$PROJECT_DIR$/.bazelproject" />
     <option name="workspaceRoot" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="BlazeSyncStatusState">
+    <option name="dirty" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a0f15ca1-db1b-42a9-b812-89a9c9b0e97a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.bazelproject" beforeDir="false" afterPath="$PROJECT_DIR$/.bazelproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.blaze/modules/.project-data-dir.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.blaze/modules/.workspace.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/arturh.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bazel-out" beforeDir="false" afterPath="$PROJECT_DIR$/../bazel-out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guernsey3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../thielson1.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,10 +24,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../.gitignore" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -45,8 +58,91 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_sass_compiletime_deps/node_modules" />
+    <handled-path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_devserver_deps/node_modules" />
+    <handled-path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/node_modules" />
+    <handled-path value="$PROJECT_DIR$/../dist/thielson1/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_nodejs/internal/npm_install/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_nodejs/internal/rollup/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_nodejs/internal/test/node_resolve_index_2/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_nodejs/internal/test/node_resolve_index_3/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_nodejs/internal/test/node_resolve_index_4/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_nodejs/internal/test/node_resolve_main/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_nodejs/internal/test/node_resolve_main_2/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_nodejs/internal/test/node_resolve_nested_main/nested/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_nodejs/internal/test/node_resolve_nested_main/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_nodejs/internal/test/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_sass_compiletime_deps/_yarn_cache/v1/npm-sass-1.3.2/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_sass_compiletime_deps/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript/internal/devserver/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript/internal/karma/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript/internal/protobufjs/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript/internal/tsc_wrapped/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_devserver_deps/_yarn_cache/v1/npm-requirejs-2.3.5-617b9acbbcb336540ef4914d790323a8d4b861b0/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_devserver_deps/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-@types/jasmine-2.8.2-6ae4d8740c0da5d5a627df725b4eed71b8e36668/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-@types/node-7.0.18-cd67f27d3dc0cfb746f0bdd5e086c4c5d55be173/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-@types/tmp-0.0.33-1073c4bc824754ae3d10cfab88ab0237ba964e4d/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-ansi-regex-2.1.1-c3b33ab5ee360d86e0e628f0468ae7ef27d654df/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-ascli-1.0.1-bcfa5974a62f18e81cabaeb49732ab4a88f906bc/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-balanced-match-1.0.0-89b4d199ab2bee49de164ea02b89ce462d71b767/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-brace-expansion-1.1.8-c07b211c7c952ec1f8efd51a77ef0d1d3990a292/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-bytebuffer-5.0.1-582eea4b1a873b6d020a48d58df85f0bba6cfddd/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-camelcase-2.1.1-7c1d16d679a1bbe59ca02cacecfb011e201f5a1f/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-cliui-3.2.0-120601537a916d29940f934da3b48d585a39213d/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-code-point-at-1.1.0-0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-colour-0.7.1-9cb169917ec5d12c0736d3e8685746df1cadf778/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-concat-map-0.0.1-d8a96bd77fd68df7793a73036a3ba0d5405d477b/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-decamelize-1.2.0-f6534d15148269b20352e7bee26f501f9a191290/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-glob-5.0.15-1bc936b9e02f4a603fcc222ecf7633d30b8b93b1/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-inflight-1.0.6-49bd6331d7d02d0c09bc910a1075ba8165b56df9/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-inherits-2.0.3-633c2c83e3da42a502f52466022480f4208261de/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-invert-kv-1.0.0-104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-is-fullwidth-code-point-1.0.0-ef9e31386f031a7f0d643af82fde50c457ef00cb/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-lcid-1.0.0-308accafa0bc483a3867b4b6f2b9506251d1b835/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-long-3.2.0-d821b7138ca1cb581c172990ef14db200b5c474b/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-minimatch-3.0.4-5166e286457f03306064be5497e8dbb0c3d32083/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-minimist-0.0.8-857fcabfc3397d2625b8228262e86aa7a011b05d/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-minimist-1.2.0-a35008b20f41383eec1fb914f4cd5df79a264284/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-mkdirp-0.5.1-30057438eac6cf7f8c4767f38648d6697d75c903/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-number-is-nan-1.0.1-097b602b53422a522c1afb8790318336941a011d/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-once-1.4.0-583b1aa775961d4b113ac17d9c50baef9dd76bd1/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-optjs-3.2.2-69a6ce89c442a44403141ad2f9b370bd5bb6f4ee/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-os-locale-1.4.0-20f9f17ae29ed345e8bde583b13d2009803c14d9/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-os-tmpdir-1.0.2-bbe67406c79aa85c5cfec766fe5734555dfa1274/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-path-is-absolute-1.0.1-174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-protobufjs-5.0.0-4223063233ea96ac063ca2b554035204db524fa1/examples/protoify/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-protobufjs-5.0.0-4223063233ea96ac063ca2b554035204db524fa1/examples/websocket/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-protobufjs-5.0.0-4223063233ea96ac063ca2b554035204db524fa1/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-source-map-0.6.1-74722af32e9614e9c287a8d0bbde48b5e2f1a263/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-source-map-support-0.5.3-2b3d5fff298cfa4d1afd7d4352d569e9a0158e76/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-string-width-1.0.2-118bdf5b8cdc51a2a7e70d211e07e2b0b9b107d3/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-strip-ansi-3.0.1-6a385fb8853d952d5ff05d0e8aaf94278dc63dcf/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-tmp-0.0.33-6d34335889768d21b2bcda0aa277ced3b1bfadf9/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-tsickle-0.28.0-6cd6fa004766c6ad9261b599c83866ee97cc7875/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-tslib-1.9.0-e37a86fda8cbbaf23a057f473c9f4dc64e5fc2e8/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-tsutils-2.20.0-303394064bc80be8ee04e10b8609ae852e9312d3/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-typescript-2.7.2-2d615a1ef4aee4f574425cdff7026edf81919836/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-window-size-0.1.4-f8e1aa1ee5a53ec5bf151ffa09742a6ad7697876/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-wrap-ansi-2.1.0-d8fc3d284dd05794fe84973caecdd1cf824fdd85/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-wrappy-1.0.2-b5243d8f3ec1aa35f1364605bc0d1036e30ab69f/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-y18n-3.2.1-6d15fba884c08679c0d77e88e7759e811e07fa41/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/_yarn_cache/v1/npm-yargs-3.32.0-03088e9ebf9e756b69751611d2a5ef591482c995/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/build_bazel_rules_typescript_tsc_wrapped_deps/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/io_bazel_rules_sass/sass/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/nodejs/yarn/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/rxjs/ajax/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/rxjs/internal-compatibility/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/rxjs/operators/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/rxjs/testing/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/external/rxjs/webSocket/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/package.json" />
+      <path value="$PROJECT_DIR$/../dist/thielson1/third_party/history-server/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="9" />
@@ -82,6 +178,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.." />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -151,15 +252,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538806055294</updated>
-      <workItem from="1538806059257" duration="301000" />
+      <workItem from="1538806059257" duration="633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301000" />
+    <option name="totallyTimeSpent" value="633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="42" width="1260" height="669" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -172,7 +274,7 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Blaze Console" side_tool="true" visible="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Blaze Console" sideWeight="0.500821" side_tool="true" visible="true" weight="0.3292683" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
@@ -180,7 +282,7 @@
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Blaze Problems" />
+      <window_info anchor="bottom" id="Blaze Problems" sideWeight="0.49917898" visible="true" weight="0.3292683" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -220,6 +322,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../thielson1.iml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

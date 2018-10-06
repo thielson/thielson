@@ -46,11 +46,11 @@ dist/
 node_modules/
 
 #bazel
-bazel-bin/
-bazel-genfiles/
 bazel-guernsey3/
-bazel-out/
-bazel-testlogs/
+bazel-bin
+bazel-genfiles
+bazel-out
+bazel-testlogs
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
