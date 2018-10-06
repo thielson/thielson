@@ -17,6 +17,6 @@ additional_languages:
   # python
   # scala
   typescript
-  
+
 ts_config_rules:
   //java/com/guernsey/example:tsconfig.json
