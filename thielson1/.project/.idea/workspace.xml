@@ -12,10 +12,7 @@
     <option name="dirty" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f15ca1-db1b-42a9-b812-89a9c9b0e97a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a0f15ca1-db1b-42a9-b812-89a9c9b0e97a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +25,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="165">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -146,7 +143,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="9" />
-    <option name="y" value="42" />
+    <option name="y" value="41" />
     <option name="width" value="1260" />
     <option name="height" value="669" />
   </component>
@@ -252,16 +249,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538806055294</updated>
-      <workItem from="1538806059257" duration="633000" />
+      <workItem from="1538806059257" duration="767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="633000" />
+    <option name="totallyTimeSpent" value="767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="42" width="1260" height="669" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -325,8 +321,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
