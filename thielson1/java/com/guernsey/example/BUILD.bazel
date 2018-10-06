@@ -1,0 +1,66 @@
+package(default_visibility = ["//visibility:public"])
+
+load("@angular//:index.bzl", "ng_module")
+
+ng_module(
+    name = "example",
+    srcs = glob(["*.ts"]),
+    assets = [
+        ":app.component.html",
+    ],
+    tsconfig = ":tsconfig.json",
+    deps = [
+        "//java/com/guernsey/example/hello-world",
+        "//java/com/guernsey/example/todos",
+    ],
+)
+
+load("@build_bazel_rules_typescript//:defs.bzl", "ts_devserver")
+
+ts_devserver(
+    name = "devserver",
+    additional_root_paths = [
+        "guernsey3/node_modules/zone.js/dist",
+        "guernsey3/node_modules/@ngrx/store/bundles",
+    ],
+    entry_module = "guernsey3/java/com/guernsey/example/main",
+    scripts = [
+        ":require.config.js",
+        "//:angular_bundles",
+    ],
+    serving_path = "/bundle.min.js",
+    static_files = [
+        "//:node_modules/zone.js/dist/zone.min.js",
+        "//:node_modules/@ngrx/store/bundles/store.umd.min.js",
+        "index.html",
+    ],
+    deps = ["//java/com/guernsey/example"],
+)
+
+load("@build_bazel_rules_nodejs//:defs.bzl", "nodejs_binary", "rollup_bundle")
+
+rollup_bundle(
+    name = "bundle",
+    entry_point = "java/com/guernsey/example/main",
+    deps = ["//java/com/guernsey/example"],
+)
+
+# Needed because the prodserver only loads static files that appear under this
+# package.
+genrule(
+    name = "zonejs",
+    srcs = ["//:node_modules/zone.js/dist/zone.min.js"],
+    outs = ["zone.min.js"],
+    cmd = "cp $< $@",
+)
+
+load("//third_party/history-server:index.bzl", "history_server")
+
+history_server(
+    name = "prodserver",
+    data = [
+        "index.html",
+        ":bundle",
+        ":zonejs",
+    ],
+)

@@ -1,0 +1,22 @@
+directories:
+  java/com/guernsey/example
+  javatests/com/guernsey/example
+  .
+
+targets:
+  //java/com/guernsey/example/...:all
+  //javatests/com/guernsey/example/...:all
+
+additional_languages:
+  # Uncomment any additional languages you want supported
+  # android
+  # dart
+  # go
+  javascript
+  # kotlin
+  # python
+  # scala
+  typescript
+  
+ts_config_rules:
+  //java/com/guernsey/example:tsconfig.json
