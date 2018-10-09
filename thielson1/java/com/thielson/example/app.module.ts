@@ -3,11 +3,11 @@ import {BrowserModule} from '@angular/platform-browser';
 import {RouterModule, Routes} from '@angular/router';
 import {StoreModule} from '@ngrx/store';
 
-import {HelloWorldComponent} from 'guernsey3/java/com/guernsey/example/hello-world/hello-world.component';
-import {HelloWorldModule} from 'guernsey3/java/com/guernsey/example/hello-world/hello-world.module';
-import {todoReducer} from 'guernsey3/java/com/guernsey/example/reducers/reducers';
-import {TodosComponent} from 'guernsey3/java/com/guernsey/example/todos/todos.component';
-import {TodosModule} from 'guernsey3/java/com/guernsey/example/todos/todos.module';
+import {HelloWorldComponent} from 'thielson1/java/com/thielson/example/hello-world/hello-world.component';
+import {HelloWorldModule} from 'thielson1/java/com/thielson/example/hello-world/hello-world.module';
+import {todoReducer} from 'thielson1/java/com/thielson/example/reducers/reducers';
+import {TodosComponent} from 'thielson1/java/com/thielson/example/todos/todos.component';
+import {TodosModule} from 'thielson1/java/com/thielson/example/todos/todos.module';
 
 import {AppComponent} from './app.component';
 

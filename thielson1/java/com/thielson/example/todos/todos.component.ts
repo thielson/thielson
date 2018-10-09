@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {Store} from '@ngrx/store';
 import {Observable} from 'rxjs';
 
-import {ADD_TODO, DELETE_TODO, TOGGLE_DONE, UPDATE_TODO} from 'guernsey3/java/com/guernsey/example/reducers/reducers';
+import {ADD_TODO, DELETE_TODO, TOGGLE_DONE, UPDATE_TODO} from 'thielson1/java/com/thielson/example/reducers/reducers';
 
 @Component({
   selector: 'todos',

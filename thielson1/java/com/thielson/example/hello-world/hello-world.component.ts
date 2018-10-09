@@ -1,5 +1,5 @@
 import {Component, NgModule} from '@angular/core';
-import {msg} from 'guernsey3/java/com/guernsey/example/lib/file';
+import {msg} from 'thielson1/java/com/thielson/example/lib/file';
 
 @Component({
   selector: 'hello-world-app',

@@ -1,5 +1,5 @@
 exports.config = {
-  specs: ['dist/bin/test/e2e/*.spec.js'],
+  specs: ['dist/bin/javatests/com/thielson/protractor/**/*.spec.js'],
   capabilities: {browserName: 'chrome', chromeOptions: {args: ['--no-sandbox']}},
   directConnect: true,
   baseUrl: 'http://localhost:5432/',

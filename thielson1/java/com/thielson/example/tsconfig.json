@@ -8,9 +8,5 @@
             "es2015.promise"
         ],
         "experimentalDecorators": true,
-        "baseUrl": "./../../../..",
-        "paths": {
-            "guernsey3/*": ["*"]
-        }
     }
 }

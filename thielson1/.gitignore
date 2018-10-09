@@ -46,7 +46,7 @@ dist/
 node_modules/
 
 #bazel
-bazel-guernsey3/
+bazel-thielson1/
 bazel-bin
 bazel-genfiles
 bazel-out

@@ -10,8 +10,8 @@ ng_module(
     ],
     tsconfig = ":tsconfig.json",
     deps = [
-        "//java/com/guernsey/example/hello-world",
-        "//java/com/guernsey/example/todos",
+        "//java/com/thielson/example/hello-world",
+        "//java/com/thielson/example/todos",
     ],
 )
 
@@ -20,10 +20,10 @@ load("@build_bazel_rules_typescript//:defs.bzl", "ts_devserver")
 ts_devserver(
     name = "devserver",
     additional_root_paths = [
-        "guernsey3/node_modules/zone.js/dist",
-        "guernsey3/node_modules/@ngrx/store/bundles",
+        "thielson1/node_modules/zone.js/dist",
+        "thielson1/node_modules/@ngrx/store/bundles",
     ],
-    entry_module = "guernsey3/java/com/guernsey/example/main",
+    entry_module = "thielson1/java/com/thielson/example/main",
     scripts = [
         ":require.config.js",
         "//:angular_bundles",
@@ -34,15 +34,15 @@ ts_devserver(
         "//:node_modules/@ngrx/store/bundles/store.umd.min.js",
         "index.html",
     ],
-    deps = ["//java/com/guernsey/example"],
+    deps = ["//java/com/thielson/example"],
 )
 
 load("@build_bazel_rules_nodejs//:defs.bzl", "nodejs_binary", "rollup_bundle")
 
 rollup_bundle(
     name = "bundle",
-    entry_point = "java/com/guernsey/example/main",
-    deps = ["//java/com/guernsey/example"],
+    entry_point = "java/com/thielson/example/main",
+    deps = ["//java/com/thielson/example"],
 )
 
 # Needed because the prodserver only loads static files that appear under this

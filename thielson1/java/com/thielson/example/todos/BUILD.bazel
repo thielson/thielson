@@ -8,7 +8,7 @@ sass_binary(
     name = "todos-styles",
     src = "todos.component.scss",
     deps = [
-        "//java/com/guernsey/example/styles:shared"
+        "//java/com/thielson/example/styles:shared"
     ],
 )
 
@@ -22,10 +22,10 @@ ng_module(
         "todos.component.html",
         ":todos-styles",
     ],
-    tsconfig = "//java/com/guernsey/example:tsconfig.json",
+    tsconfig = "//java/com/thielson/example:tsconfig.json",
     deps = [
-        "//java/com/guernsey/example/lib",
-        "//java/com/guernsey/example/reducers",
+        "//java/com/thielson/example/lib",
+        "//java/com/thielson/example/reducers",
         "@rxjs",
     ],
 )
